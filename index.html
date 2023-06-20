@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="true"/>
+    <link rel="stylesheet" href="style.css">
+    <title>LandingPage</title>
+</head>
+
+<body>
+    <div class="container" id="up">
+        <h1 class="h1">JS простыми словами</h1>
+        
+        <h2 class="h2">Что из себя представляет JavaScript?</h2>
+        <p>JavaScript это язык, который позволяет вам применять сложные вещи на web странице — каждый раз, когда на web странице происходит что-то большее, чем просто её статичное отображение отображение периодически обновляемого контента, или интерактивных карт, или анимация 2D/3D графики, или прокрутка видео в проигрывателе, и т.д..</p>
+        <p>JavaScript язык программирования, который позволяет вам создать динамически обновляемый контент, 
+          управляет мультимедиа, анимирует изображения, впрочем, делает всё, что угодно. Окей, не все, что угодно, но всё равно, 
+          это удивительно, чего можно достичь с помощью нескольких строк JavaScript-кода.</p>
+       
+        <p>У браузера есть собственный движок, который иногда называют «виртуальная машина JavaScript».</p>
+        <h2 class="h2">Особенности JavaScript</h2>
+        <p>JS — мультипарадигменный язык, так как он поддерживает разные парадигмы (стили) программирования:.</p>
+        <p>Объектно-ориентированный — представляет программу как систему отношений между объектами — наборами данных и функций.</p>
+        <p>Императивный — в этом стиле программирования используют инструкции, которые выполняются последовательно, а для доступа к данным используются переменные, значение которых может быть переписано в ходе вычисления.</p>
+         
+    </div>
+        <h1 class="h1">Простые примеры работы JavaScript</h1>
+     
+
+        <div class="task">
+          
+         <!-- HTML разметка -->
+          <button onclick="showOverlay()" class="btn">Показать заставку</button>
+          <div id="overlay" class="overlay">          
+          <div class="overlay-content">
+          <h1>Сегодня:</h1>
+          <p id="date"></p>
+          <span class="close">&times;</span>
+          </div>
+          </div>
+      
+          </div>
+      
+          <div class="task">
+            <h2 class="h2">Радиус окружности</h2>
+            <label class="text-field" for="rad">Введите радиус:</label>
+            <input class="text-field" id="rad1" type="text">
+            <button onclick="Radius()" class="btn">Посчитать</button>
+            <p>Ответ: <span  id="Radius"></span> </p>
+          </div>
+
+      <div>
+        <div class="task">
+          <h2 class="h2">Умножение чисел</h2>
+          <label for="num1">Введите число 1:</label>
+          <input type="number" class="mult" id="num1">
+          <label for="num2">Введите число 2:</label>
+          <input type="number" class="mult" id="num2"><br>
+          <button onclick="multi()"  class="btn" >Умножить</button>
+          <p>Ответ: <span  id="ans"></span> </p>
+        </div>
+      
+
+  <script src="index.js"></script>
+  <div>
+    <h2 class="h2">Время теста!</h2>
+  </div>
+</body>
+</html>
+<html>
+	<head>
+		<title>Тест</title>
+		<meta charset="utf-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="true"/>
+		<link rel="stylesheet" type="text/css" href="site.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<iframe src="quiz.html" width="480" height="720" class="quiz-frame"></iframe>
+		</div>
+	</body>
+  <footer>
+    <div class="footer">
+     
+      <h2>2022</h2>
+    </div>
+  </footer>
+</html>
